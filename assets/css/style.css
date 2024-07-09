@@ -1,0 +1,83 @@
+/*google font css/*/
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;*/
+    font-style: normal;
+  }
+
+  nav {
+    background-color: #373a3c;
+    text-align: right;
+  }
+
+
+  .nav-item {
+    text-align: left;
+    font: normal normal normal 20px/24px Raleway;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .navbar-brand img {
+    width: 50px; 
+    height: 50px;
+}
+
+
+
+  header{
+    background-image: url("../img/logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+ 
+  }
+
+  header p{
+    text-align: right;
+  }
+
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+}
+  i{
+    font-size: 50px;
+  }
+
+  #mis-trabajos{
+    background-color: #17a2b8;
+
+  }
+
+  #acerca-de-mi{
+    display: inline-block;
+  }
+  footer{
+    background-color: #0F0F0F;
+  }
+
+  footer p{
+    padding: 20px;
+  }
+
+  .card {
+    height: 100%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-outline-info {
+    width: 100px;
+    align-self: center;
+}
